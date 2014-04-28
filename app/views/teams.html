@@ -1,0 +1,30 @@
+<div ng-show="allmlb">
+  <div ng-repeat="league in allmlb.sports[0].leagues">
+    {{allmlb.sports[0].name}} - {{league.name}}
+    <div ng-repeat="team in league.teams">
+      <p>
+        <p>
+          {{team.location}}
+          {{team.name}}
+          <a href="{{team.links.web.teams.href}}">clubhouse</a>
+        </p>
+      </p>
+    </div>
+  </div>
+  <a href="http://developer.espn.com/docs/teams#what-it-returns">stupid api example</a>
+</div>
+
+<div ng-show="mlbteam">
+  <div ng-show="mlbteam.resultsCount == 1">
+    {{mlbteam.sports[0].name}} - {{mlbteam.sports[0].leagues[0].name}}
+    <p>
+      {{mlbteam.sports[0].leagues[0].teams[0].location}}
+      {{mlbteam.sports[0].leagues[0].teams[0].name}}
+      <a href="{{mlbteam.sports[0].leagues[0].teams[0].links.web.teams.href}}">clubhouse</a>
+    </p>
+    <a href="http://developer.espn.com/docs/teams#what-it-returns">stupid api example</a>
+  </div>
+  <div ng-show="mlbteam.resultsCount < 1">
+    what?!!?!? no team found
+  </div>
+</div>
