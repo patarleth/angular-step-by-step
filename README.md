@@ -9,13 +9,13 @@ Even if you don't end up installing [yeoman](http://yeoman.io) (here on just ref
 
 What is all this cr4p? Here are the highlights -
 
-    app/ - angular js application and dependencies installed using bower.
-    test/ - unit and integration tests go here
-    bower.json - javascript dependencies and versioning for your project
-    .bowerrc - when/if you run bower install (bower is a tool that is part of yeoman), the bowerrc file defines where to put the dependencies.
-    .jshintrc - jshint rules. the jshint tool helps keep your javascript well formed and correct. IDE's like Webstorm from jetbrains.com can load the .jshintrc file to help all devs on project use the same formatting in the same project.
-    Gruntfile - grunt is a general purpose task runner that aids development of web apps. Grunt can min/uglify your javascript, run jshint as part of your deploy process, run unit tests with karma/jasmine, resize images, make icons, basically anything you want to do when you release or build your webapp.
-    karma* - testing framework configuration
+* app/ - angular js application and dependencies installed using bower.
+* test/ - unit and integration tests go here
+* bower.json - javascript dependencies and versioning for your project
+* .bowerrc - when/if you run bower install (bower is a tool that is part of yeoman), the bowerrc file defines where to put the dependencies.
+* .jshintrc - jshint rules. the jshint tool helps keep your javascript well formed and correct. IDE's like Webstorm from jetbrains.com can load the .jshintrc file to help all devs on project use the same formatting in the same project.
+* Gruntfile - grunt is a general purpose task runner that aids development of web apps. Grunt can min/uglify your javascript, run jshint as part of your deploy process, run unit tests with karma/jasmine, resize images, make icons, basically anything you want to do when you release or build your webapp.
+* karma* - testing framework configuration
 
 The yo/bower/grunt/karma toolset modifies and creates files in the app/ folder. I took 4 snapshots of the app folder as I developed this sample app, adding a README.md at each step.
 
