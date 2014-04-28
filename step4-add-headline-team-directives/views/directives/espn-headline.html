@@ -1,0 +1,14 @@
+<a href="{{headline.links.web.href}}" target="_blank">{{headline.headline}}...</a>
+<div ng-show="headline.type == 'Media' || headline.type == 'HeadlineNews'">
+  <div ng-repeat="headlineimg in headline.images">
+    <img src="{{headlineimg.url}}"/><br />
+    {{img.caption}}<br />
+  </div>
+  <div ng-repeat="vid in headline.video">
+    <br />
+    <video ng-show="vid.links.source.mezzanine" width="640" controls>
+      <source src="{{trust(vid.links.source.mezzanine.href)}}" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </div>
+</div>
