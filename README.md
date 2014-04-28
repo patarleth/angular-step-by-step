@@ -24,7 +24,7 @@ What is all this cr4p? Here are the highlights -
     basically anything you want to do when you release or build your webapp.</pre>
 * karma* - testing framework configuration files.
 
-The yo/bower/grunt/karma toolset modifies and creates files in the app/ folder. I took 4 snapshots of the app folder as I developed this sample app, adding a README.md at each step.
+As you use the yo/bower/grunt/karma toolset, yo modifies and creates files in the app/ folder. As I used the tool to dev my silly sample app, I took 4 snapshots of the app folder. I added a README.md each time I paused dev'ing
 
 * [step1-run-yo/README.md](https://github.com/patarleth/angular-step-by-step/tree/master/step1-run-yo)
 * [step2-generate-rest-singleton/README.md](https://github.com/patarleth/angular-step-by-step/tree/master/step2-generate-rest-singleton)
