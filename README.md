@@ -14,8 +14,15 @@ What is all this cr4p? Here are the highlights -
 * bower.json - javascript dependencies and versioning for your project
 * .bowerrc - when/if you run bower install (bower is a tool that is part of yeoman), the bowerrc file defines where to put the dependencies.
 * .jshintrc - jshint rules. the jshint tool helps keep your javascript well formed and correct. IDE's like Webstorm from jetbrains.com can load the .jshintrc file to help all devs on project use the same formatting in the same project.
-* Gruntfile - grunt is a general purpose task runner that aids development of web apps. Grunt can min/uglify your javascript, run jshint as part of your deploy process, run unit tests with karma/jasmine, resize images, make icons, basically anything you want to do when you release or build your webapp.
-* karma* - testing framework configuration
+* Gruntfile - configuration file used by [grunt](gruntjs.com) configuring a general purpose task runner which aids development of web apps.
+* grunt can do a number of things - <pre>
+    min/uglify your javascript
+    run jshint as part of your deploy process
+    run unit tests with karma/jasmine
+    resize images
+    make icons
+    basically anything you want to do when you release or build your webapp.</pre>
+* karma* - testing framework configuration files.
 
 The yo/bower/grunt/karma toolset modifies and creates files in the app/ folder. I took 4 snapshots of the app folder as I developed this sample app, adding a README.md at each step.
 
