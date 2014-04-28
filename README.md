@@ -19,10 +19,10 @@ What is all this cr4p? Here are the highlights -
 
 The yo/bower/grunt/karma toolset modifies and creates files in the app/ folder. I took 4 snapshots of the app folder as I developed this sample app, adding a README.md at each step.
 
-    [step1-run-yo/README.md](https://github.com/patarleth/angular-step-by-step/tree/master/step1-run-yo)
-    [step2-generate-rest-singleton/README.md](https://github.com/patarleth/angular-step-by-step/tree/master/step2-generate-rest-singleton)
-    [step3-add-additional-routes/README.md](https://github.com/patarleth/angular-step-by-step/tree/master/step3-add-additional-routes)
-    [step4-add-headline-team-directives/README.md](https://github.com/patarleth/angular-step-by-step/tree/master/step4-add-headline-team-directives)
+* [step1-run-yo/README.md](https://github.com/patarleth/angular-step-by-step/tree/master/step1-run-yo)
+* [step2-generate-rest-singleton/README.md](https://github.com/patarleth/angular-step-by-step/tree/master/step2-generate-rest-singleton)
+* [step3-add-additional-routes/README.md](https://github.com/patarleth/angular-step-by-step/tree/master/step3-add-additional-routes)
+* [step4-add-headline-team-directives/README.md](https://github.com/patarleth/angular-step-by-step/tree/master/step4-add-headline-team-directives)
 
 Just diff the step by step folders to see which files are being modified at each step and how the app is built up.
 
