@@ -3,11 +3,17 @@ Step by step example using yeoman, generating a SPA
 
 [SPA - single page application](http://en.wikipedia.org/wiki/Single-page_application)
 
-pre-reqs - a commandline compiler toolchain (gcc etc.) nodejs.org, yeoman.io, and the yeoman angular generator
+pre-reqs - This tutorial assumes you are using a unix'ish box or a mac, you will need
+* a commandline compiler toolchain (gcc etc.)
+* nodejs.org (current release)
+* yeoman.io
+* and the yeoman angular generator https://github.com/yeoman/generator-angular
 
-Even if you don't end up installing [yeoman](http://yeoman.io) (here on just refered to as yo) and the rest of the toolchain, you can use this tutorial to see what yo does and how yo can help scaffold your angularjs single page web application.
+If you are on a window box (any flavor honestly) I HIGHLY recommand you learn how to use a virtual machine management tool like vagrant (http://www.vagrantup.com/downloads.html) to set an Ubuntu box up.  Vagrant is super easy to use and lets you spin up and down vms for each project.
 
-What is all this cr4p? Here are the highlights -
+Even if you don't end up installing the [yeoman](http://yeoman.io) tools (here on just refered to as yo), this tutorial can still be helpful, to see what yo generates for you to type by hand. Basically all yo does is create text files in the app folder to speed up angular dev time.  If you don't mind typing in each file, feel free to ignore yo.
+
+Sooooooooooo - what is all this cr4p? Here are the highlights -
 
 * app/ - angular js application and dependencies installed using bower.
 * test/ - unit and integration tests go here
